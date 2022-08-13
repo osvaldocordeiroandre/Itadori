@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+html, body{
+    overflow-x:hidden;
+    }
+
+.content-wrapper{
+    background-color: #181A1B;
+}
+
+.sociais{
+    color: white;
+
+    text-align: center;
+}
+
+.ajuste{
+    padding-top: 10px;
+}
+
+.logoita{
+    width: 20rem;
+}
+
+.themain{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    flex-wrap: wrap;
+
+   
+}
+
+h6{
+    color: white;
+}
+
+
+.animejust{
+    width: 100%;
+    max-width: 400px;
+
+    cursor: pointer;
+
+    transition: transform .2s;
+
+    padding-top: 50px;
+}
+
+.animejust:hover{
+    transform: scale(1.1);
+
+    transition: transform .2s;
+
+}
+
+.amagamiss{
+    width: 100%;
+    max-width: 400px;
+
+    padding-left: 10px;
+    padding-top: 50px;
+
+    cursor: pointer;
+
+    transition: transform .2s;
+}
+
+.amagamiss:hover{
+    transform: scale(1.1);
+
+    transition: transform .2s;
+}
+
+.komi{
+    width: 100%;
+    max-width: 400px;
+
+    padding-left: 10px;
+    padding-top: 50px;
+
+    cursor: pointer;
+
+    transition: transform .2s;
+}
+
+.komi:hover{
+    transform: scale(1.1);
+
+    transition: transform .2s;
+}
+
+.buttonyt{
+    
+
+    margin-top: 80px;
+}
+
+.youtubebutton{
+    background-color: rgb(206, 39, 39);
+
+    width: 200px;
+
+    color: white;
+
+    font-size: 3rem;
+    font-family: Oswald;
+
+    border-radius: 50px;
+
+    text-decoration: none;
+    border: none;
+
+    transition: transform .2s;
+}
+
+.youtubebutton:hover{
+
+    transform: scale(1.1);
+
+    transition: transform .2s;
+}
+
+.icon-facebook{
+    width: 100px;
+}
+
+.sociaisi-medias{
+    
+    display: flex;
+    justify-content: center;
+
+    
+    margin-bottom: 20px;
+    
+}
+
+.instagram{
+
+    cursor: pointer;
+
+    color: white;
+}
+
+
+.facebook{
+
+    color: white;
+
+    padding-left: 10px;
+}
+
+.discord{
+
+    color: white;
+
+    padding-left: 10px;
+    
+}
+
+.spotify{
+
+    color: white;
+
+    padding-left: 10px;
+}
+
+.omgthis{
+    transform: scale(1.1);
+
+    transition: transform .2s;
+}
+
+.omgthis:hover{
+    transform: scale(1.1);
+
+    transition: transform .2s;
+}
+
+.follow{
+
+    margin-top: 100px;
+}
+
+.font-ajust{
+    font-family: Quicksand;
+
+    color: white;
+}
+
+.leviotario{
+    font-family: Quicksand;
+    font-weight: 300;
+
+    color: white;
+}
+
+.smartphone{
+    width: 100%;
+
+    max-width: 800px;
+
+    margin-top: 50px;
+}
+
+.test{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.helpme{
+    display: flex;
+    text-align: right;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+    margin-top: 250px;
+}
+
+.papart{
+    text-align: center;
+    justify-content: center;
+
+    padding-top: 20px;
+    
+}
+
+.manpqp{
+    font-family: Quicksand;
+
+    color: white;
+}
+
+.columjust{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    font-size: large;
+}
+
+strong{
+    color: white;
+}
+
+
+.pictureajust{
+    text-align: center;
+
+    margin-top: 100px;
+
+    background-color: #181A1B;
+}
+
+.saudavel{
+    width: 100%;
+
+    max-width: 600px;
+
+    margin-bottom: 20px; 
+}
+
+.Uppo{
+    cursor: pointer;
+
+    text-align: center;
+}
+
+.centerall{
+    text-align: center;
+
+    
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.adjustthis{
+    width: 300px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+
+    cursor: pointer;
+}
+
+.adjustthis:hover{
+    transform: scale(1.1);
+
+    transition: transform .2s;
+}
+
+.image1artis6{
+    width: 300px;
+
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.partine{
+    text-align: center;
+
+    font-size: 1.4rem;
+    font-family: Quicksand;
+
+    color: white;
+
+    margin-top: 50px;
+}
+
+.CaHu{
+    padding-left: 10px;
+}
+
+.ScoRyy{
+    padding-left: 10px;
+}
+
+.rYnE{
+    padding-left: 10px;
+}
+
+footer{
+    text-align: center;
+
+    color: white;
+}
+
+.topvideos{
+    text-align: center;
+}
+
+.sontrogsize{
+    font-size: 2rem;
+}
+
+
+
+@media (max-width: 1310px){
+    .helpme{
+        
+
+        text-align: center;
+    }
+
+    .test{
+
+
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1123px){
+    
+    .saudavel{
+        width: 100%;
+
+        max-width: 600px;
+    }
+}
+
+body{
+    min-width: 824px;
+    max-width: 100%;
+}
+
+
+
+
